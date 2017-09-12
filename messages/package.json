@@ -1,5 +1,5 @@
 {
-  "name": "emptybot",
+  "name": "blazejewicz-bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,11 +8,15 @@
     "botbuilder-azure": "3.0.2"
   },
   "devDependencies": {
-      "restify": "^4.1.1"
+    "@types/node": "^8.0.28",
+    "restify": "^4.1.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "8.4"
+  }
 }
