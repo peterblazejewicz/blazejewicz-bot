@@ -4,14 +4,22 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "botbuilder": "^3.7.0",
-    "botbuilder-azure": "3.0.2"
+    "botbuilder": "^3.9.1",
+    "botbuilder-azure": "^3.0.2",
+    "restify": "^4.3.1"
   },
   "devDependencies": {
     "@types/node": "^8.0.28",
-    "restify": "^4.1.1"
+    "@types/restify": "^5.0.3",
+    "rimraf": "^2.6.2",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
   },
   "scripts": {
+    "build": "npm run clean && npm run build:tsc",
+    "build:tsc": "tsc",
+    "clean": "rimraf dist",
+    "lint": "tslint index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
