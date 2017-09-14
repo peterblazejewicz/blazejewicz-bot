@@ -1,7 +1,6 @@
 {
   "disabled": false,
-  "bindings": [
-    {
+  "bindings": [{
       "authLevel": "function",
       "type": "httpTrigger",
       "direction": "in",
@@ -12,5 +11,6 @@
       "direction": "out",
       "name": "res"
     }
-  ]
+  ],
+  "entryPoint": "dist/index.js"
 }
