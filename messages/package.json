@@ -2,7 +2,7 @@
   "name": "blazejewicz-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "botbuilder": "^3.9.1",
     "botbuilder-azure": "^3.0.2",
