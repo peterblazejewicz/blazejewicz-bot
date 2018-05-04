@@ -1,2 +1,8 @@
-# blazejewicz-bot
-An Azure Bot Framework basic bot template 
+# blazejewiczbot
+
+Simplest bot written in JS for tests
+
+## Author
+
+@peterblazejewicz
+

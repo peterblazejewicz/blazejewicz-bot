@@ -1,0 +1,29 @@
+{
+  "name": "blazejewiczbot",
+  "version": "1.0.0",
+  "description": "Simplest bot written in JS for tests",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterblazejewicz/blazejewiczbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/peterblazejewicz/blazejewiczbot/issues"
+  },
+  "homepage": "https://github.com/peterblazejewicz/blazejewiczbot#readme",
+  "dependencies": {
+    "botbuilder": "^3.14.1",
+    "dotenv-extended": "^2.0.2",
+    "restify": "^7.1.1"
+  },
+  "devDependencies": {
+    "@types/restify": "^5.0.7"
+  }
+}
